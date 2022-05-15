@@ -28,7 +28,7 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    color: #292929;
+    color: #242424;
 }
 .cabecalho nav .aGeral:hover{
     transition: 1s;
@@ -56,7 +56,7 @@ body {
 }
 .sessão_produtos ul{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
     /* produto */
@@ -85,6 +85,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 5px 0px;
+    background-color: #FFF;
  }
  
 .produtos div .categoria {
@@ -107,6 +108,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     margin-left: 15px;
+    color: #242424;
 }
 .produtos div .valor{
     font-size: 14px;
@@ -123,6 +125,7 @@ body {
     font-weight: 500;
     background-color: #FFF;
     padding: 0px;
+    color: #242424;
 }
 .produtos div button:hover{
     transition: 0.5s;
@@ -136,6 +139,7 @@ body {
 .pesquisa_carrinho{
     width: 350px;
     background-color: #FFF;
+    margin-left: 55px;
 }
     /* Pesquisa */
 .pesquisa {
@@ -208,6 +212,7 @@ body {
 }
 .carrinhoVazio .adicione{
     font-size: 14px;
+    color: #242424;
 }
 
     /* Final carrinho */
