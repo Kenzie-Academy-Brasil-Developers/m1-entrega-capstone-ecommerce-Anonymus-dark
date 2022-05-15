@@ -85,7 +85,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 5px 0px;
-    background-color: #FFF;
  }
  
 .produtos div .categoria {
@@ -258,7 +257,7 @@ body {
     width: 282px;
     height: 92px;
     display: flex;
-    background-color: aquamarine;
+    background-color: #FFF;
     margin: 28px;
 }
 .carrinhoItens figure{
