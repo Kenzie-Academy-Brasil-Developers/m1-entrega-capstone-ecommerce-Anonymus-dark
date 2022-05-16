@@ -363,3 +363,35 @@ function moleton ( nome ) {
 
     return nome
 }
+
+    //botoes cabecario
+
+const navegacao = document.getElementById("navegacao")
+
+navegacao.addEventListener("click", trazerCategoria )
+
+function trazerCategoria ( e ) {
+
+    mostrarTodos( e.target.innerHTML, data )
+    
+    if( e.target.innerHTML !== "Todos" ){
+        
+        let nomeTratado = tratamentoEntrada ( e.target.innerHTML )
+
+        colocarNoArr ( data, nomeTratado )
+
+        renderiarVitrine ( arrBarraPesquisa )
+    }
+
+}
+
+function mostrarTodos ( name, data ) {
+
+        console.log( name == "Todos")
+    if( name == "Todos" ){
+
+        vitrine.innerHTML   = ""
+        colocarItensVitrine( data )
+    }
+
+}
